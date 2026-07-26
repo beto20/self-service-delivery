@@ -88,4 +88,4 @@ jobs:
           script: |
             whoami
             sudo docker pull albertovs/self-service-delivery:v1.0.0
-            sudo docker run -p 8082:8082 -d albertovs/self-service-delivery:v1.0.0
+            sudo docker run -p 8080:8080 -d albertovs/self-service-delivery:v1.0.0
