@@ -12,6 +12,9 @@ public class RepositoryServiceImpl implements RepositoryService {
         var dto1 = new RepositoryResponse("demo", "https://github.com/beto20/kubexplorer.git" , "tider");
         var dto2 = new RepositoryResponse("pruebaRepo", "https://github.com/beto20/kubexplorer-env.git" , "tider");
 
-        return List.of(dto1, dto2);
+        var dto3 = new RepositoryResponse("Grafana", "https://github.com/grafana" , "grafana");
+        var dto4 = new RepositoryResponse("K8s", "https://github.com/kubernetes/kubernetes" , "gubernetes");
+
+        return List.of(dto1, dto2, dto3, dto4);
     }
 }
